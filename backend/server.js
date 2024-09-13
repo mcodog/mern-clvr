@@ -5,6 +5,8 @@ import { connectDB } from './config/db.js';
 import sizeRoute from './routes/size.route.js'
 import tempRoute from './routes/temperature.route.js'
 import drinkRoute from './routes/drink.route.js'
+import categoryRoute from './routes/category.route.js'
+import priceRoute from './routes/price.route.js'
 
 const app = express();
 dotenv.config();
@@ -16,6 +18,8 @@ const MONGOURI = process.env.MONGO_URI;
 app.use('/api/sizes', sizeRoute);
 app.use('/api/temp', tempRoute);
 app.use('/api/drink', drinkRoute);
+app.use('/api/category', categoryRoute);
+app.use('/api/price', priceRoute);
 
 app.listen(PORT, () => {
     console.log(`Server is running. Connected to port: ${PORT}`);
