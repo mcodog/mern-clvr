@@ -1,6 +1,6 @@
 # My Task List
 
-- [ ] Basic CRUD
+- [x] Basic CRUD
     - [x] Size CRUD
     - [x] Temparature CRUD
     - [x] Drink CRUD
