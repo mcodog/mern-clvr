@@ -1,0 +1,98 @@
+header {
+    height: 100%;
+    width: 400px;
+    /* border:1px solid blue; */
+
+    background-color: #333645;
+
+    display: flex;
+    z-index: 100;
+    flex-direction: column;
+}
+
+.logo {
+    /* border:1px solid red; */
+    /* background-color: #248343; */
+    background-color: #a48ad4;
+    width: 100%;
+    height: 135px;
+    box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 7px 11px 1px rgba(0,0,0,0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.logo .image-col {
+    /* border:1px solid red; */
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo .image-col .image-container {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    /* border:1px solid red; */
+}
+
+.logo .image-col .image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.logo .desc-col {
+    /* border:1px solid red; */
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.logo .desc-col .title {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.logo .desc-col .logged-user {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    /* border:1px solid red; */
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-item .icon {
+    height: 100%;
+    width: 20%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item .nav-title {
+    color: rgb(234, 225, 236);
+    text-transform: uppercase;
+    font-size: 12px;
+}
