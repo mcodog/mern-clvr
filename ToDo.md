@@ -1,14 +1,15 @@
 # My Task List
 
-- [ ] Basic CRUD
+- [x] Basic CRUD
     - [x] Size CRUD
     - [x] Temparature CRUD
     - [x] Drink CRUD
-    - [ ] Category CRUD
-    - [ ] Pricing CRUD
+    - [x] Category CRUD
+    - [x] Pricing CRUD
 
-- [ ] Create Transaction
+- [ ] Design Page for CRUDs
+- [ ] Implement CRUD API to Frontend
 
-- [ ] Review pull requests
-- [x] Update website
-- [ ] Plan next sprint
+- [ ] Develop Login/Register Page
+- [ ] Develop Login/Register API using Express-JWT
+- [ ] Implement Login/Register API to Frontend
